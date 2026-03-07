@@ -1,0 +1,39 @@
+.notifications-bar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    background: #f5f7fa;
+    overflow: hidden;
+}
+
+.notifications-label {
+    background: #c62828;
+    color: white;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.notifications-scroll {
+    flex: 1;
+    overflow: hidden;
+}
+
+.notifications-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: scrollNews 22s linear infinite;
+    font-size: 14px;
+    color: #1a4a8a;
+}
+
+@keyframes scrollNews {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

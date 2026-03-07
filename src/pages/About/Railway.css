@@ -1,0 +1,38 @@
+.railway-container {
+    padding: 40px;
+    max-width: 900px;
+}
+
+.railway-title {
+    color: #2a4fa0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.railway-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.railway-table th {
+    background: #f2f2f2;
+    border: 1px solid #999;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.railway-table td {
+    border: 1px solid #999;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.railway-table a {
+    color: #1a4ed8;
+    text-decoration: underline;
+}
+
+.railway-table a:hover {
+    color: #0f2c8c;
+}

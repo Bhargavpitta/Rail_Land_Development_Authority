@@ -1,0 +1,28 @@
+.page-container {
+    padding: 40px;
+}
+
+.page-title {
+    color: #2a4fa0;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.annual-list {
+    list-style: none;
+    padding: 0;
+}
+
+.annual-list li {
+    margin-bottom: 12px;
+}
+
+.annual-list a {
+    color: #1a4ed8;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.annual-list a:hover {
+    color: #0f2c8c;
+}

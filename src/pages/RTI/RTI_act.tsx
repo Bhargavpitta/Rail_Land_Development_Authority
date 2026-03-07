@@ -1,38 +1,30 @@
-import "./RTI_act.css";
+import React from "react";
 
 const RTIAct = () => {
   return (
-    <div className="rti-container">
-      <h1 className="rti-title">Right to Information Act</h1>
+    <div className="max-w-6xl mx-auto px-6 py-8">
 
-      <div className="rti-card">
-        <h2>About RTI</h2>
-        <p>
-          The Right to Information Act, 2005 empowers citizens to request
-          information from public authorities. It promotes transparency and
-          accountability in the working of every public authority.
-        </p>
+      <h1 className="text-2xl font-bold text-blue-700 mb-4">
+        RTI ACT
+      </h1>
+
+      <div className="border rounded p-6 bg-gray-50">
+
+        <h2 className="text-lg font-semibold text-blue-600 mb-2">
+          RTI ACT
+        </h2>
+
+        <a
+          href="/pdfs/rti-act.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-700 underline font-medium hover:text-blue-900"
+        >
+          RTI ACT
+        </a>
+
       </div>
 
-      <div className="rti-card">
-        <h2>Objectives</h2>
-        <ul>
-          <li>Promote transparency in government functioning</li>
-          <li>Ensure accountability in public authorities</li>
-          <li>Empower citizens with access to information</li>
-          <li>Reduce corruption through open governance</li>
-        </ul>
-      </div>
-
-      <div className="rti-card">
-        <h2>Important Links</h2>
-
-        <div className="rti-links">
-          <a href="#">RTI Act 2005 (PDF)</a>
-          <a href="#">RTI Application Form</a>
-          <a href="#">RTI Rules & Guidelines</a>
-        </div>
-      </div>
     </div>
   );
 };

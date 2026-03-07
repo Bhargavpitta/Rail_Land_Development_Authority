@@ -1,43 +1,73 @@
-import "./RTI_official.css";
+import React from "react";
 
 const RTIOfficial = () => {
   return (
-    <div className="official-container">
-      <h1 className="official-title">RTI Officials</h1>
+    <div className="max-w-6xl mx-auto px-6 py-8">
 
-      <table className="official-table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Designation</th>
-            <th>Office</th>
-            <th>Email</th>
-          </tr>
-        </thead>
+      <h1 className="text-2xl font-bold text-blue-700 mb-6">
+        RTI Officials
+      </h1>
 
-        <tbody>
-          <tr>
-            <td>Rajesh Kumar</td>
-            <td>Public Information Officer</td>
-            <td>RLDA Headquarters</td>
-            <td>pio@rlda.gov.in</td>
-          </tr>
+      <div className="overflow-x-auto">
+        <table className="w-full border border-gray-400 text-sm">
 
-          <tr>
-            <td>Anita Sharma</td>
-            <td>Assistant PIO</td>
-            <td>Delhi Division</td>
-            <td>apio@rlda.gov.in</td>
-          </tr>
+          <thead className="bg-gray-200">
+            <tr>
+              <th className="border border-gray-400 px-3 py-2">Sn.</th>
+              <th className="border border-gray-400 px-3 py-2">Name</th>
+              <th className="border border-gray-400 px-3 py-2">Designation</th>
+              <th className="border border-gray-400 px-3 py-2">Contact No.</th>
+              <th className="border border-gray-400 px-3 py-2">E-mail Address</th>
+            </tr>
+          </thead>
 
-          <tr>
-            <td>Vikas Singh</td>
-            <td>Appellate Authority</td>
-            <td>Ministry of Railways</td>
-            <td>appeal@rlda.gov.in</td>
-          </tr>
-        </tbody>
-      </table>
+          <tbody>
+            <tr>
+              <td className="border border-gray-400 px-3 py-3 text-center">1</td>
+              <td className="border border-gray-400 px-3 py-3">
+                Sh. Ranjan Kumar Srivastava
+              </td>
+              <td className="border border-gray-400 px-3 py-3">
+                DGM/LAW & Appellate Authority
+              </td>
+              <td className="border border-gray-400 px-3 py-3">
+                011-23232854
+              </td>
+              <td className="border border-gray-400 px-3 py-3">
+                <a
+                  href="mailto:dgmlaw@rlda.railnet.gov.in"
+                  className="text-blue-700 underline"
+                >
+                  dgmlaw@rlda.railnet.gov.in
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="border border-gray-400 px-3 py-3 text-center">2</td>
+              <td className="border border-gray-400 px-3 py-3">
+                Sh. Deepak Narang
+              </td>
+              <td className="border border-gray-400 px-3 py-3">
+                Manager / Bridge & Central Public Information Officer
+              </td>
+              <td className="border border-gray-400 px-3 py-3">
+                011-23232854
+              </td>
+              <td className="border border-gray-400 px-3 py-3">
+                <a
+                  href="mailto:am.law@rlda.railnet.gov.in"
+                  className="text-blue-700 underline"
+                >
+                  am.law@rlda.railnet.gov.in
+                </a>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+
     </div>
   );
 };

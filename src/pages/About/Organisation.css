@@ -1,25 +1,23 @@
 .organisation-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px;
-    text-align: center;
+    padding: 20px;
 }
 
 .organisation-title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 30px;
+    color: #3b6ab3;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
-.organisation-image-wrapper {
-    background: #f5f7fa;
-    /* matches most government portal backgrounds */
+.organisation-card {
+    background: #f5f5f5;
+    border: 1px solid #dcdcdc;
     padding: 20px;
-    border-radius: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .organisation-image {
     width: 100%;
+    max-width: 900px;
     height: auto;
-    border-radius: 6px;
 }
