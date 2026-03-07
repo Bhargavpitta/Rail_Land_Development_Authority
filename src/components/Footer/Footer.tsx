@@ -31,11 +31,11 @@ const Footer = () => {
           <span className="text-xs text-muted-foreground">india.gov.in</span>
           <span className="text-xs text-muted-foreground">Indian Railways Traffic Service Association</span>
           <div className="flex items-center gap-3">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Facebook"><Facebook className="w-5 h-5" /></a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Twitter"><Twitter className="w-5 h-5" /></a>
-            <a href="#" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram"><Instagram className="w-5 h-5" /></a>
-            <a href="#" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube"><Youtube className="w-5 h-5" /></a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn"><Linkedin className="w-5 h-5" /></a>
+            <a href="https://www.facebook.com/rldaindia" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Facebook"><Facebook className="w-5 h-5" /></a>
+            <a href="https://x.com/rlda_india" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Twitter"><Twitter className="w-5 h-5" /></a>
+            <a href="https://www.instagram.com/rldaindia/" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram"><Instagram className="w-5 h-5" /></a>
+            <a href="https://www.youtube.com/@RailLandDevelopmentAuthority" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube"><Youtube className="w-5 h-5" /></a>
+            <a href="https://www.linkedin.com/company/rail-land-development-authority-rlda/" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn"><Linkedin className="w-5 h-5" /></a>
           </div>
         </div>
         <p className="text-center text-sm font-bold text-foreground mt-4">{t('footer.gst')}</p>

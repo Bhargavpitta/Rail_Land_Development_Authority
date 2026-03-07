@@ -1,0 +1,46 @@
+.rti-container {
+    padding: 40px 60px;
+    background: #f8fafc;
+    min-height: 70vh;
+}
+
+.rti-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}
+
+.rti-card {
+    background: white;
+    border-radius: 6px;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-left: 5px solid #1e3a8a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.rti-card h2 {
+    margin-bottom: 10px;
+    color: #1e3a8a;
+}
+
+.rti-card ul {
+    padding-left: 18px;
+}
+
+.rti-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.rti-links a {
+    text-decoration: none;
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+.rti-links a:hover {
+    text-decoration: underline;
+}

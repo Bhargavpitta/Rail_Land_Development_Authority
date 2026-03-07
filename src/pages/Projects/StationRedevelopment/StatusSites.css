@@ -1,0 +1,14 @@
+.status-sites-container {
+    padding: 40px;
+}
+
+.status-sites-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.status-sites-content {
+    font-size: 16px;
+    line-height: 1.6;
+}

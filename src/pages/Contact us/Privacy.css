@@ -1,0 +1,14 @@
+.contact-page {
+    background: #f4f6fa;
+    min-height: 70vh;
+}
+
+.contact-banner {
+    background: #1e3a8a;
+    color: white;
+    padding: 40px 60px;
+}
+
+.contact-content {
+    padding: 40px 60px;
+}

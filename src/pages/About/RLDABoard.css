@@ -1,0 +1,10 @@
+.rlda-board {
+    padding: 60px 10%;
+    min-height: 100vh;
+    background-color: #f4f7fb;
+}
+
+.board-title {
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}

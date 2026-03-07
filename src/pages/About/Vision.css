@@ -1,0 +1,51 @@
+.vision-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vision-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.vision-divider {
+    margin: 20px auto 30px;
+    border: 0;
+    height: 2px;
+    background: #999;
+    width: 90%;
+}
+
+.vision-container h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.vision-container h3 {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.vision-container p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.vision-container ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.vision-container li {
+    margin-bottom: 10px;
+}
+
+.vision-highlight {
+    font-weight: 600;
+}

@@ -30,20 +30,20 @@ const Navbar = () => {
     {
       label: t('nav.about_us'),
       children: [
-        { label: t('about_us.board'), href: '#' },
-        { label: t('about_us.vision'), href: '#' },
-        { label: t('about_us.org_structure'), href: '#' },
-        { label: t('about_us.mission'), href: '#' },
-        { label: t('about_us.zones'), href: '#' },
-        { label: t('about_us.rules'), href: '#' },
-        { label: t('about_us.annual_reports'), href: '#' },
+        { label: t("about_us.board"), href: "/about/rlda-board" },
+        { label: t("about_us.vision"), href: "/about/vision-2047" },
+        { label: t("about_us.org_structure"), href: "/about/organisation-structure" },
+        { label: t("about_us.mission"), href: "/about/mission" },
+        { label: t("about_us.zones"), href: "/about/railway-zones" },
+        { label: t("about_us.rules"), href: "/about/rules-regulations" },
+        { label: t("about_us.annual_reports"), href: "/about/annual-reports" },
       ],
     },
     {
       label: t('nav.rti'),
       children: [
-        { label: t('rti_menu.act'), href: '#' },
-        { label: t('rti_menu.officials'), href: '#' },
+        { label: t("rti_menu.act"), href: "/rti/act" },
+        { label: t("rti_menu.officials"), href: "/rti/officials" }
       ],
     },
     {
@@ -52,71 +52,71 @@ const Navbar = () => {
         {
           label: t('projects_menu.station'), href: '#',
           subChildren: [
-            { label: t('projects_menu.station_status'), href: '#' },
-            { label: t('projects_menu.station_design'), href: '#' },
-            { label: t('projects_menu.station_guidelines'), href: '#' },
+            { label: t('projects_menu.station_status'), href: '/projects/station/status' },
+            { label: t('projects_menu.station_design'), href: '/projects/station/design-drawings' },
+            { label: t('projects_menu.station_guidelines'), href: '/projects/station/guidelines' },
           ],
         },
         {
           label: t('projects_menu.commercial'), href: '#',
           subChildren: [
-            { label: t('projects_menu.commercial_status'), href: '#' },
+            { label: t('projects_menu.commercial_status'), href: '/projects/commercial/status' },
           ],
         },
         {
           label: t('projects_menu.mfc'), href: '#',
           subChildren: [
-            { label: t('projects_menu.mfc_status'), href: '#' },
+            { label: t('projects_menu.mfc_status'), href: '/projects/mfc/status' },
           ],
         },
         {
           label: t('projects_menu.colony'), href: '#',
           subChildren: [
-            { label: t('projects_menu.colony_status'), href: '#' },
+            { label: t('projects_menu.colony_status'), href: '/projects/colony/status' },
           ],
         },
-        { label: t('projects_menu.consultant'), href: '#' },
-        { label: t('projects_menu.opaas'), href: '#' },
+        { label: t('projects_menu.consultant'), href: "/projects/consultant" },
+        { label: t('projects_menu.opaas'), href: "/projects/opaas" },
       ],
     },
     {
       label: t('nav.tenders'),
       children: [
-        { label: t('tenders_menu.all'), href: '#' },
-        { label: t('tenders_menu.station'), href: '#' },
-        { label: t('tenders_menu.commercial'), href: '#' },
-        { label: t('tenders_menu.colony'), href: '#' },
-        { label: t('tenders_menu.mfc'), href: '#' },
-        { label: t('tenders_menu.awarded'), href: '#' },
-        { label: t('tenders_menu.bid'), href: '#' },
+        { label: t("tenders_menu.all"), href: "/tenders/all" },
+        { label: t("tenders_menu.station"), href: "/tenders/station" },
+        { label: t("tenders_menu.commercial"), href: "/tenders/commercial" },
+        { label: t("tenders_menu.colony"), href: "/tenders/colony" },
+        { label: t("tenders_menu.mfc"), href: "/tenders/mfc" },
+        { label: t("tenders_menu.awarded"), href: "/tenders/summary" },
+        { label: t("tenders_menu.bid"), href: "/tenders/current" }
       ],
     },
     {
       label: t('nav.news'),
       children: [
-        { label: t('news_menu.newsletter'), href: '#' },
-        { label: t('news_menu.faq'), href: '#' },
+        { label: t("news_menu.newsletter"), href: "/news/newsletter" },
+        { label: t("news_menu.faq"), href: "/news/faq" },
       ],
     },
     {
       label: t('nav.career'),
       children: [
-        { label: t('career_menu.reimbursement'), href: '#' },
-        { label: t('career_menu.remuneration'), href: '#' },
-        { label: t('career_menu.terms'), href: '#' },
+        { label: t("career_menu.reimbursement"), href: "/career/reimbursement" },
+        { label: t("career_menu.remuneration"), href: "/career/monthly-remuneration" },
+        { label: t("career_menu.terms"), href: "/career/terms" },
       ],
     },
     {
       label: t('nav.contact'),
       children: [
-        { label: t('contact_menu.telephone'), href: '#' },
-        { label: t('contact_menu.links'), href: '#' },
-        { label: t('contact_menu.railway_sites'), href: '#' },
-        { label: t('contact_menu.sitemap'), href: '#' },
-        { label: t('contact_menu.faq'), href: '#' },
-        { label: t('contact_menu.feedback'), href: '#' },
-        { label: t('contact_menu.disclaimer'), href: '#' },
-        { label: t('contact_menu.privacy'), href: '#' },
+        { label: t("contact_menu.telephone"), href: "/contact/telephone" },
+        { label: t("contact_menu.links"), href: "/contact/important-links" },
+        { label: t("contact_menu.railway_sites"), href: "/contact/other-sites" },
+        { label: t("contact_menu.sitemap"), href: "/contact/sitemap" },
+        { label: t("contact_menu.faq"), href: "/contact/faqs" },
+        { label: t("contact_menu.feedback"), href: "/contact/feedback" },
+        { label: t("contact_menu.disclaimer"), href: "/contact/disclaimer" },
+        { label: t("contact_menu.privacy"), href: "/contact/privacy" }
       ],
     },
   ];
