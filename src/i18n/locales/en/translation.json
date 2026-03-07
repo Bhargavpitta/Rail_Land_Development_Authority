@@ -1,0 +1,119 @@
+{
+  "header": {
+    "title_hi": "रेल भूमि विकास प्राधिकरण",
+    "title_en": "Rail Land Development Authority",
+    "subtitle": "( A statutory Authority under Ministry of Railways, Government of India )",
+    "ministry_hi": "रेल मंत्रालय, भारत सरकार का सांविधिक प्राधिकरण",
+    "hindi": "हिन्दी",
+    "search": "Search",
+    "railnet_mail": "Railnet Mail",
+    "language": "Language"
+  },
+  "nav": {
+    "about_us": "About Us",
+    "rti": "RTI",
+    "projects": "Projects",
+    "tenders": "Tenders/e-Auctions",
+    "news": "News & Announcements",
+    "career": "Career",
+    "contact": "Contact Us",
+    "whats_new": "What's New"
+  },
+  "about_us": {
+    "board": "RLDA Board",
+    "vision": "Vision 2047",
+    "org_structure": "Organisation Structure",
+    "mission": "Mission",
+    "zones": "Railway Zones/PU & others",
+    "rules": "Rules & Regulations",
+    "annual_reports": "Annual Reports"
+  },
+  "rti_menu": {
+    "act": "RTI Act",
+    "officials": "RTI Officials"
+  },
+  "projects_menu": {
+    "station": "Station Re-Development",
+    "station_status": "Status of Station Development Sites",
+    "station_design": "Station Design & Drawings",
+    "station_guidelines": "General Guidelines",
+    "commercial": "Commercial Development",
+    "commercial_status": "Status of Commercial Sites",
+    "mfc": "Multifunctional Complex",
+    "mfc_status": "Status of Active MFC Sites",
+    "colony": "Colony Redevelopment",
+    "colony_status": "Status of Colony Redevelopment Sites",
+    "consultant": "Empanelled Consultant",
+    "opaas": "OPAAS"
+  },
+  "tenders_menu": {
+    "all": "All Tenders/e-Auctions (Active)",
+    "station": "Station Redevelopment (Active Tenders)",
+    "commercial": "Commercial Development (Active Tenders)",
+    "colony": "Colony Redevelopment (Active Tenders)",
+    "mfc": "MFC (Active Tenders)",
+    "awarded": "Summary of Awarded Tenders",
+    "bid": "Current Bid Opportunities"
+  },
+  "news_menu": {
+    "newsletter": "RLDA E-news Letter",
+    "faq": "FAQs"
+  },
+  "career_menu": {
+    "reimbursement": "Reimbursement and Allowances in RLDA",
+    "remuneration": "Monthly Remuneration",
+    "terms": "Terms & Conditions"
+  },
+  "contact_menu": {
+    "telephone": "Telephone Directory",
+    "links": "Important Links",
+    "railway_sites": "Other Railway Sites",
+    "sitemap": "Sitemap",
+    "faq": "FAQ",
+    "feedback": "Feedback",
+    "disclaimer": "Disclaimer",
+    "privacy": "Privacy Policy"
+  },
+  "ticker": {
+    "item1": "RailOne - Official Indian Railways Super App - Download Now on Android/iOS",
+    "item2": "22nd Edition of RLDA's E-newsletter",
+    "item3": "LDHB (Part-I & Part-II) for Revenue Share Model dt. 06.08.2025"
+  },
+  "slider": {
+    "slide1": "STATION UNDER REDEVELOPMENT (CHANDIGARH RAILWAY STATION)",
+    "slide2": "MODERN RAILWAY INFRASTRUCTURE FOR NEW INDIA",
+    "slide3": "COMMERCIAL DEVELOPMENT ALONG RAILWAY CORRIDORS"
+  },
+  "cards": {
+    "growing_story": "OUR GROWING STORY",
+    "expanding_horizon": "EXPANDING HORIZON OF RLDA",
+    "stations_redevelopment": "RAILWAY STATIONS UNDER RE-DEVELOPMENT BY RLDA- PROGRESS",
+    "mfc_passenger": "MFCs- PASSENGER AMENITIES THROUGH COMMERCIAL DEVELOPMENT",
+    "commercial_land": "DEVELOPMENT OF COMMERCIAL LAND PARCELS",
+    "colonies": "COLONIES- UTILIZING DEVELOPMENT POTENTIAL WITH STAFF WELFARE",
+    "bidding": "Current Bidding Opportunities",
+    "regulation": "Amended 2014 Regulation for Bid and Lease Agreement"
+  },
+  "news_section": {
+    "title": "News & Announcements",
+    "item1": "22nd Edition of RLDA's E-newsletter",
+    "item2": "LDHB (Part-I & Part-II) for Revenue Share Model dt. 06.08.2025",
+    "item3": "Amended 2014 Regulation for Bid and Lease Agreement",
+    "item4": "General Corrigendum & Addendum No.1 dt 11.05.2020 GCLA Part-II of LDHB dt. 26.03.2014",
+    "item5": "Addendum & Corrigendum No. 02 dt. 24.06.2021 (Part-I, LDHB dt. 26.03.2014)"
+  },
+  "footer": {
+    "sitemap": "Site Map",
+    "contact": "Contact Us",
+    "rti": "RTI",
+    "disclaimer": "Disclaimer",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2016 All Rights Reserved.",
+    "description": "This is the Portal of Indian Railways, developed with an objective to enable a single window access to information and services being provided by the various Indian Railways entities. The content in this Portal is the result of a collaborative effort of various Indian Railways Entities and Departments Maintained by CRIS, Ministry of Railways, Government of India.",
+    "gst": "RLDA GST No: 07AAAGR0030G1ZT",
+    "visitors": "Total Visitors: 6279774",
+    "photo_gallery": "Photo Gallery",
+    "public_grievances": "Public Grievances"
+  }
+}
