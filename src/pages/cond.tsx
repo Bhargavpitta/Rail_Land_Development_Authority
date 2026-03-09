@@ -1,19 +1,25 @@
 const Cond = () => {
   return (
-    <div className="max-w-6xl mx-auto bg-white mt-6 p-6">
+    <div className="max-w-6xl mx-auto px-6 py-8">
 
-      <h2 className="text-xl font-bold mb-4 text-blue-700">
+      {/* Page Title */}
+      <h1 className="text-2xl font-bold text-gray-800 mb-6 border-b pb-2">
         Terms & Conditions
-      </h2>
+      </h1>
 
-      <a
-        href="public/pdfs/terms.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 underline hover:text-blue-800"
-      >
-        Terms and Conditions for Deputationists to Rail Land Development Authority (RLDA)
-      </a>
+      {/* Content Card */}
+      <div className="bg-white border rounded-md shadow-sm p-6">
+
+        <a
+          href="/pdfs/terms.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-700 font-semibold underline hover:text-blue-900"
+        >
+          Terms and Conditions for Deputationists to Rail Land Development Authority (RLDA)
+        </a>
+
+      </div>
 
     </div>
   );

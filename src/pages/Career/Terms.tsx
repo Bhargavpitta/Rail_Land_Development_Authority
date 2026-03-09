@@ -8,9 +8,19 @@ const Terms = () => {
       </div>
 
       <div className="page-content">
-        <p>
-          Terms and conditions governing employment and services under RLDA.
-        </p>
+
+        <div className="pdf-links">
+
+          <a
+            href="/pdfs/Career_terms/Terms_and_Conditions.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Terms and Conditions for Deputationists to Rail Land Development Authority (RLDA)
+          </a>
+
+        </div>
+
       </div>
     </div>
   );

@@ -1,31 +1,39 @@
-.railway-container {
-    padding: 40px;
-    max-width: 900px;
+.railway-page {
+    background: #f4f7fb;
+    min-height: 100vh;
 }
 
-.railway-title {
-    color: #2a4fa0;
-    font-size: 20px;
-    margin-bottom: 20px;
+.railway-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.railway-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
 }
 
 .railway-table {
     width: 100%;
     border-collapse: collapse;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 .railway-table th {
-    background: #f2f2f2;
-    border: 1px solid #999;
-    padding: 8px;
-    font-size: 14px;
+    background: #e9edf7;
+    padding: 12px;
+    border: 1px solid #ccc;
     text-align: center;
 }
 
 .railway-table td {
-    border: 1px solid #999;
-    padding: 6px;
-    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
 .railway-table a {

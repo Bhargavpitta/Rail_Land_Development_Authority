@@ -30,14 +30,13 @@ import RTIAct from "./pages/RTI/RTI_act";
 import RTIOfficial from "./pages/RTI/RTI_official";
 
 /* PROJECTS */
-import StatusSites from "./pages/Projects/StationRedevelopment/StatusSites";
-import StationDesignDrawings from "./pages/Projects/StationRedevelopment/StationDesignDrawings";
-import GeneralGuidelines from "./pages/Projects/StationRedevelopment/GeneralGuidelines";
+import StatusSites from "./pages/Projects/Station/StatusSites";
+import StationDesignDrawings from "./pages/Projects/Station/StationDesignDrawings";
+import GeneralGuidelines from "./pages/Projects/Station/GeneralGuidelines";
 
-import StatusCommercialSites from "./pages/Projects/CommercialDevelopment/StatusCommercialSites";
-import StatusActiveMFCSites from "./pages/Projects/MultifunctionalComplex/StatusActiveMFCSites";
-import StatusColonySites from "./pages/Projects/ColonyRedevelopment/StatusColonySites";
-
+import StatusCommercialSites from "./pages/Projects/Commercial/StatusCommercialSites";
+import StatusActiveMFCSites from "./pages/Projects/MFC/StatusActiveMFCSites";
+import StatusColonySites from "./pages/Projects/Colony/StatusColonySites";
 import Empanelled from "./pages/Projects/Empanelled";
 import Opas from "./pages/Projects/Opas";
 
@@ -58,6 +57,7 @@ import Faq from "./pages/News/Faq";
 import Reimbursement from "./pages/Career/Reimbursement";
 import Monthly from "./pages/Career/Monthly";
 import Terms from "./pages/Career/Terms";
+import Archives from "./pages/Career/Archives";
 
 /* CONTACT */
 import Telephone from "./pages/Contact us/Telephone";
@@ -74,6 +74,12 @@ import Sitemap from "./pages/Sitemap/Sitemap";
 import Desc from "./pages/desc";
 import Cond from "./pages/cond";
 import Pri from "./pages/pri";
+
+//Header
+
+import SearchPage from "./pages/Search/SearchPage.tsx";
+
+
 
 const queryClient = new QueryClient();
 
@@ -133,11 +139,12 @@ const App = () => (
             <Route path="/news/newsletter" element={<Rlda />} />
             <Route path="/news/faq" element={<Faq />} />
 
+           
             {/* CAREER */}
-            <Route path="/career/reimbursement" element={<Reimbursement />} />
-            <Route path="/career/monthly-remuneration" element={<Monthly />} />
-            <Route path="/career/terms" element={<Terms />} />
-
+<Route path="/career/reimbursement" element={<Reimbursement />} />
+<Route path="/career/monthly-remuneration" element={<Monthly />} />
+<Route path="/career/terms" element={<Terms />} />
+<Route path="/career/archives" element={<Archives />} />
             {/* CONTACT */}
             <Route path="/contact/telephone" element={<Telephone />} />
             <Route path="/contact/important-links" element={<Important />} />
@@ -153,6 +160,13 @@ const App = () => (
             <Route path="/disclaimer" element={<Desc />} />
             <Route path="/terms" element={<Cond />} />
             <Route path="/privacy" element={<Pri />} />
+
+
+            {/* Header */}
+            <Route path="/search" element={<SearchPage />} />
+
+            {/* projects */}
+            
 
           </Route>
 

@@ -1,29 +1,51 @@
-.project-page {
-    width: 100%;
-    background: #f5f7fa;
-    min-height: 70vh;
+.station-page {
+    background: #f4f7fb;
+    min-height: 100vh;
 }
 
-.project-banner {
-    background: #1e3a8a;
+.station-banner {
+    background: #2f4f8f;
     color: white;
-    padding: 40px 60px;
-    font-size: 22px;
+    padding: 28px 10%;
+    font-size: 26px;
     font-weight: 600;
 }
 
-.project-content {
-    padding: 40px 60px;
-    max-width: 1100px;
+.station-container {
+    max-width: 900px;
     margin: auto;
-    line-height: 1.8;
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.station-subtitle {
+    color: #c00000;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.station-container p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 16px;
     color: #333;
 }
 
-.project-card {
-    margin-top: 30px;
-    background: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.station-heading {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.station-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.station-list li {
+    margin-bottom: 6px;
+    font-size: 14px;
 }

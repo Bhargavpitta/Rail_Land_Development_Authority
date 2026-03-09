@@ -1,3 +1,5 @@
+import "./Annual.css";
+
 const Annual = () => {
 
   const reports = [
@@ -18,31 +20,25 @@ const Annual = () => {
   ];
 
   return (
-    <div style={{ padding: "40px" }}>
+    <div className="annual-page">
 
-      <h2 style={{ color: "#2a4fa0", marginBottom: "20px" }}>
-        Annual Reports
-      </h2>
+      <div className="annual-banner">
+        <h1>Annual Reports</h1>
+      </div>
 
-      <ul style={{ listStyle: "none", padding: 0 }}>
+      <div className="page-container">
 
-        {reports.map((year, index) => (
-          <li key={index} style={{ marginBottom: "12px" }}>
-            <a
-              href="#"
-              onClick={(e) => e.preventDefault()}
-              style={{
-                color: "#1a4ed8",
-                textDecoration: "underline",
-                fontSize: "16px"
-              }}
-            >
-              Annual Report ({year})
-            </a>
-          </li>
-        ))}
+        <ul className="annual-list">
+          {reports.map((year, index) => (
+            <li key={index}>
+              <a href="#">
+                Annual Report ({year})
+              </a>
+            </li>
+          ))}
+        </ul>
 
-      </ul>
+      </div>
 
     </div>
   );

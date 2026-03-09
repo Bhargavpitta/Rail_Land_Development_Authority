@@ -5,21 +5,31 @@ import vision2 from "../../assets/vision2.jpg";
 
 const Vision = () => {
   return (
-    <div className="vision-container">
+    <div className="vision-page">
 
-      <div className="vision-card">
+      {/* Page Banner */}
+      <div className="vision-banner">
+        <h1>Vision 2047</h1>
+      </div>
 
-        <img
-          src={vision1}
-          alt="RLDA Vision Map 2047 Part 1"
-          className="vision-image"
-        />
+      {/* Content */}
+      <div className="vision-container">
 
-        <img
-          src={vision2}
-          alt="RLDA Vision Map 2047 Part 2"
-          className="vision-image"
-        />
+        <div className="vision-card">
+
+          <img
+            src={vision1}
+            alt="RLDA Vision Map 2047 Part 1"
+            className="vision-image"
+          />
+
+          <img
+            src={vision2}
+            alt="RLDA Vision Map 2047 Part 2"
+            className="vision-image"
+          />
+
+        </div>
 
       </div>
 

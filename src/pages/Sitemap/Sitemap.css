@@ -1,0 +1,52 @@
+.sitemap-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.sitemap-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.sitemap-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.sitemap-section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 5px;
+}
+
+.sitemap-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sitemap-section li {
+    margin-bottom: 8px;
+}
+
+.sitemap-section a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.sitemap-section a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .sitemap-grid {
+        grid-template-columns: 1fr;
+    }
+}

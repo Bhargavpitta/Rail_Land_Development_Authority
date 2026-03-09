@@ -1,0 +1,48 @@
+.archives-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+.archives-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.archives-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.archives-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.archives-table th {
+    background: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.archives-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.archives-table a {
+    color: #0a58ca;
+    text-decoration: none;
+}
+
+.archives-table a:hover {
+    text-decoration: underline;
+}

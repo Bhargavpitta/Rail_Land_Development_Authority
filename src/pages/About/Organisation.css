@@ -1,17 +1,29 @@
-.organisation-container {
-    padding: 20px;
+.organisation-page {
+    background: #f4f7fb;
+    min-height: 100vh;
 }
 
-.organisation-title {
-    color: #3b6ab3;
-    font-size: 20px;
-    margin-bottom: 15px;
+.organisation-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.organisation-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
 }
 
 .organisation-card {
-    background: #f5f5f5;
-    border: 1px solid #dcdcdc;
-    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
     display: flex;
     justify-content: center;
 }
@@ -20,4 +32,5 @@
     width: 100%;
     max-width: 900px;
     height: auto;
+    border-radius: 6px;
 }

@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
+import "./Sitemap.css";
 
 const Sitemap = () => {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-8">
+    <div className="sitemap-container">
 
-      <h1 className="text-2xl font-bold mb-6">Sitemap</h1>
+      <h1 className="sitemap-title">Sitemap</h1>
 
-      <div className="grid grid-cols-2 gap-10">
+      <div className="sitemap-grid">
 
         {/* ABOUT */}
-        <div>
-          <h2 className="font-bold mb-3">About Us</h2>
-          <ul className="space-y-2 text-blue-600">
+        <div className="sitemap-section">
+          <h2>About Us</h2>
+          <ul>
             <li><Link to="/about/rlda-board">RLDA Board</Link></li>
             <li><Link to="/about/vision-2047">Vision 2047</Link></li>
             <li><Link to="/about/organisation-structure">Organisation Structure</Link></li>
@@ -23,18 +24,18 @@ const Sitemap = () => {
         </div>
 
         {/* RTI */}
-        <div>
-          <h2 className="font-bold mb-3">RTI</h2>
-          <ul className="space-y-2 text-blue-600">
+        <div className="sitemap-section">
+          <h2>RTI</h2>
+          <ul>
             <li><Link to="/rti/act">RTI Act</Link></li>
             <li><Link to="/rti/officials">RTI Officials</Link></li>
           </ul>
         </div>
 
         {/* PROJECTS */}
-        <div>
-          <h2 className="font-bold mb-3">Projects</h2>
-          <ul className="space-y-2 text-blue-600">
+        <div className="sitemap-section">
+          <h2>Projects</h2>
+          <ul>
             <li><Link to="/projects/station/status">Station Re-Development</Link></li>
             <li><Link to="/projects/commercial/status">Commercial Development</Link></li>
             <li><Link to="/projects/mfc/status">Multifunctional Complex</Link></li>
@@ -45,9 +46,9 @@ const Sitemap = () => {
         </div>
 
         {/* TENDERS */}
-        <div>
-          <h2 className="font-bold mb-3">Tenders / e-Auctions</h2>
-          <ul className="space-y-2 text-blue-600">
+        <div className="sitemap-section">
+          <h2>Tenders / e-Auctions</h2>
+          <ul>
             <li><Link to="/tenders/all">All Tenders</Link></li>
             <li><Link to="/tenders/station">Station Redevelopment</Link></li>
             <li><Link to="/tenders/commercial">Commercial Development</Link></li>
@@ -59,18 +60,18 @@ const Sitemap = () => {
         </div>
 
         {/* NEWS */}
-        <div>
-          <h2 className="font-bold mb-3">News & Announcements</h2>
-          <ul className="space-y-2 text-blue-600">
+        <div className="sitemap-section">
+          <h2>News & Announcements</h2>
+          <ul>
             <li><Link to="/news/newsletter">RLDA E-News Letter</Link></li>
             <li><Link to="/news/faq">FAQs</Link></li>
           </ul>
         </div>
 
         {/* CAREER */}
-        <div>
-          <h2 className="font-bold mb-3">Career</h2>
-          <ul className="space-y-2 text-blue-600">
+        <div className="sitemap-section">
+          <h2>Career</h2>
+          <ul>
             <li><Link to="/career/monthly-remuneration">Monthly Remuneration</Link></li>
             <li><Link to="/career/reimbursement">Reimbursement</Link></li>
             <li><Link to="/career/terms">Terms & Conditions</Link></li>
@@ -78,9 +79,9 @@ const Sitemap = () => {
         </div>
 
         {/* CONTACT */}
-        <div>
-          <h2 className="font-bold mb-3">Contact Us</h2>
-          <ul className="space-y-2 text-blue-600">
+        <div className="sitemap-section">
+          <h2>Contact Us</h2>
+          <ul>
             <li><Link to="/contact/telephone">Telephone Directory</Link></li>
             <li><Link to="/contact/important-links">Important Links</Link></li>
             <li><Link to="/contact/other-sites">Other Railway Sites</Link></li>

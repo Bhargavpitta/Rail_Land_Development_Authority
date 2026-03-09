@@ -1,0 +1,39 @@
+.status-container {
+    padding: 30px;
+    font-family: Arial;
+}
+
+.status-container h2 {
+    margin-bottom: 10px;
+}
+
+.status-container p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.status-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.status-table th {
+    background: #e5e5e5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.status-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.status-table tr:nth-child(even) {
+    background: #f9f9f9;
+}

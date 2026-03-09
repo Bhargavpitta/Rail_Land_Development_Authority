@@ -1,22 +1,38 @@
+.annual-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+/* Blue section banner */
+.annual-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* Content container */
 .page-container {
-    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-.page-title {
-    color: #2a4fa0;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
+/* List */
 .annual-list {
     list-style: none;
     padding: 0;
 }
 
+/* List item */
 .annual-list li {
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
+/* Link style */
 .annual-list a {
     color: #1a4ed8;
     text-decoration: underline;

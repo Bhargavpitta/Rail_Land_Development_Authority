@@ -3,18 +3,21 @@ import orgChart from "../../assets/org.jpg";
 
 const Organisation = () => {
   return (
-    <div className="organisation-container">
+    <div className="organisation-page">
 
-      <h1 className="organisation-title">
-        Organisation Structure
-      </h1>
+      <div className="organisation-banner">
+        <h1>Organisation Structure</h1>
+      </div>
 
-      <div className="organisation-chart">
+      <div className="organisation-container">
 
-        <img
-          src={orgChart}
-          alt="Organisation Structure RLDA"
-        />
+        <div className="organisation-card">
+          <img
+            src={orgChart}
+            alt="Organisation Structure RLDA"
+            className="organisation-image"
+          />
+        </div>
 
       </div>
 
