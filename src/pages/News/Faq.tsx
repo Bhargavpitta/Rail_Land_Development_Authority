@@ -3,11 +3,11 @@ import "./Faq.css";
 const faqFiles = [
   {
     title: "FAQs Document",
-    file: "/pdfs/20180821_FAQ_Final.pdf"
+    file: "/src/assets/icons/20180821_FAQ_Final.pdf"
   },
   {
     title: "RLDA e-Tendering Steps",
-    file: "/pdfs/RLDA e-Tendering Steps(1).pdf"
+    file: "/src/assets/icons/RLDA e-Tendering Steps(1).pdf"
   }
 ];
 
