@@ -1,0 +1,47 @@
+/* Quick Links Container */
+.quick-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Title */
+.quick-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+/* Dropdown */
+.quick-links select {
+    width: 220px;
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+.quick-links select:hover {
+    border-color: #3b6ea5;
+}
+
+/* Focus */
+.quick-links select:focus {
+    outline: none;
+    border-color: #3b6ea5;
+    box-shadow: 0 0 3px rgba(59, 110, 165, 0.4);
+}
+
+/* Dropdown options */
+.quick-links option {
+    padding: 5px;
+}

@@ -1,5 +1,16 @@
 import "./Faq.css";
 
+const faqFiles = [
+  {
+    title: "FAQs Document",
+    file: "/src/assets/icons/20180821_FAQ_Final.pdf"
+  },
+  {
+    title: "RLDA e-Tendering Steps",
+    file: "/src/assets/icons/RLDA e-Tendering Steps(1).pdf"
+  }
+];
+
 const Faq = () => {
   return (
     <div className="news-page">
@@ -12,6 +23,16 @@ const Faq = () => {
           Frequently asked questions related to RLDA projects, tenders and
           development initiatives.
         </p>
+
+        <div className="faq-list">
+          {faqFiles.map((item, index) => (
+            <div key={index} className="faq-item">
+              <a href={item.file} target="_blank" rel="noopener noreferrer">
+                {item.title}
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

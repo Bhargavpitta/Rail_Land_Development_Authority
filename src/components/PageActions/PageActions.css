@@ -1,0 +1,34 @@
+.page-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 12px 40px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    background: none;
+    border: none;
+
+    font-size: 14px;
+    color: #1a5fb4;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.action-btn span {
+    text-decoration: none;
+}
+
+.action-btn:hover span {
+    text-decoration: underline;
+}
+
+.action-btn:hover {
+    color: #0a3d91;
+}

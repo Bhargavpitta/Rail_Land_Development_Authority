@@ -2,17 +2,15 @@ import "./Opas.css";
 
 const Opas = () => {
   return (
-    <div className="project-page">
-      <div className="project-banner">
+    <div className="opas-page">
+      <div className="opas-banner">
         <h1>OPAAS</h1>
       </div>
 
-      <div className="project-content">
-        <p>
-          Online Platform for Approval of Architectural Schemes (OPAAS) enables
-          digital submission and approval of architectural drawings related to
-          railway land.
-        </p>
+      <div className="opas-content">
+        <a href="#" className="opas-link">
+          Link for OPAAS (Online Plan Assessment and Approval System)
+        </a>
       </div>
     </div>
   );

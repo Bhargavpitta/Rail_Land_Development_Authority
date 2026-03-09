@@ -1,33 +1,48 @@
-.official-container {
-    padding: 40px 60px;
-    background: #f8fafc;
-    min-height: 70vh;
+.official-page {
+    background: #f4f7fb;
+    min-height: 100vh;
 }
 
-.official-title {
-    font-size: 28px;
-    font-weight: 700;
-    color: #1e3a8a;
-    margin-bottom: 30px;
+.official-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.official-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
 }
 
 .official-table {
     width: 100%;
     border-collapse: collapse;
     background: white;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 .official-table th {
-    background: #1e3a8a;
-    color: white;
+    background: #e9edf7;
     padding: 12px;
+    border: 1px solid #ccc;
     text-align: left;
 }
 
 .official-table td {
     padding: 12px;
-    border-bottom: 1px solid #e5e7eb;
+    border: 1px solid #ccc;
+}
+
+.official-table a {
+    color: #1a4ed8;
+    text-decoration: underline;
+}
+
+.official-table a:hover {
+    color: #0f2c8c;
 }
 
 .official-table tr:hover {

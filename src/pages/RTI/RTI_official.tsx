@@ -2,42 +2,50 @@ import "./RTI_official.css";
 
 const RTIOfficial = () => {
   return (
-    <div className="official-container">
-      <h1 className="official-title">RTI Officials</h1>
+    <div className="official-page">
+      <div className="official-banner">
+        <h1>RTI Officials</h1>
+      </div>
 
-      <table className="official-table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Designation</th>
-            <th>Office</th>
-            <th>Email</th>
-          </tr>
-        </thead>
+      <div className="official-container">
+        <table className="official-table">
+          <thead>
+            <tr>
+              <th>Sn.</th>
+              <th>Name</th>
+              <th>Designation</th>
+              <th>Contact No.</th>
+              <th>E-mail Address</th>
+            </tr>
+          </thead>
 
-        <tbody>
-          <tr>
-            <td>Rajesh Kumar</td>
-            <td>Public Information Officer</td>
-            <td>RLDA Headquarters</td>
-            <td>pio@rlda.gov.in</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Sh. Ranjan Kumar Srivastava</td>
+              <td>DGM/LAW & Appellate Authority</td>
+              <td>011-23232854</td>
+              <td>
+                <a href="mailto:dgmlaw@rlda.railnet.gov.in">
+                  dgmlaw@rlda.railnet.gov.in
+                </a>
+              </td>
+            </tr>
 
-          <tr>
-            <td>Anita Sharma</td>
-            <td>Assistant PIO</td>
-            <td>Delhi Division</td>
-            <td>apio@rlda.gov.in</td>
-          </tr>
-
-          <tr>
-            <td>Vikas Singh</td>
-            <td>Appellate Authority</td>
-            <td>Ministry of Railways</td>
-            <td>appeal@rlda.gov.in</td>
-          </tr>
-        </tbody>
-      </table>
+            <tr>
+              <td>2</td>
+              <td>Sh. Deepak Narang</td>
+              <td>Manager / Bridge & Central Public Information Officer</td>
+              <td>011-23232854</td>
+              <td>
+                <a href="mailto:am.law@rlda.railnet.gov.in">
+                  am.law@rlda.railnet.gov.in
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

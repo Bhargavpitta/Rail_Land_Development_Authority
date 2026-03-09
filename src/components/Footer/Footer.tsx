@@ -5,12 +5,12 @@ const Footer = () => {
   const { t } = useTranslation();
 
   const footerLinks = [
-    { label: t('footer.sitemap'), href: '#' },
-    { label: t('footer.contact'), href: '#' },
-    { label: t('footer.rti'), href: '#' },
-    { label: t('footer.disclaimer'), href: '#' },
-    { label: t('footer.terms'), href: '#' },
-    { label: t('footer.privacy'), href: '#' },
+    { label: t('footer.sitemap'), href: '/sitemap' },
+    { label: t('footer.contact'), href: '/contact' },
+    { label: t('footer.rti'), href: '/rti' },
+    { label: t('footer.disclaimer'), href: 'disclaimer' },
+    { label: t('footer.terms'), href: 'terms' },
+    { label: t('footer.privacy'), href: 'privacy' },
   ];
 
   return (
@@ -23,23 +23,59 @@ const Footer = () => {
       </div>
 
       {/* Social & partner links */}
-      <div className="bg-background border-t border-border px-6 py-6">
-        <div className="flex flex-wrap items-center justify-center gap-6">
-          <span className="text-xs text-muted-foreground">Knowledge Portal</span>
-          <span className="text-xs text-muted-foreground">Pensioner's Portal</span>
-          <span className="text-xs text-muted-foreground">National Voters' Services Portal</span>
-          <span className="text-xs text-muted-foreground">india.gov.in</span>
-          <span className="text-xs text-muted-foreground">Indian Railways Traffic Service Association</span>
-          <div className="flex items-center gap-3">
-            <a href="https://www.facebook.com/rldaindia" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Facebook"><Facebook className="w-5 h-5" /></a>
-            <a href="https://x.com/rlda_india" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Twitter"><Twitter className="w-5 h-5" /></a>
-            <a href="https://www.instagram.com/rldaindia/" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram"><Instagram className="w-5 h-5" /></a>
-            <a href="https://www.youtube.com/@RailLandDevelopmentAuthority" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube"><Youtube className="w-5 h-5" /></a>
-            <a href="https://www.linkedin.com/company/rail-land-development-authority-rlda/" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn"><Linkedin className="w-5 h-5" /></a>
-          </div>
-        </div>
-        <p className="text-center text-sm font-bold text-foreground mt-4">{t('footer.gst')}</p>
-      </div>
+<div className="bg-background border-t border-border px-6 py-6">
+  <div className="flex flex-wrap items-center justify-center gap-6">
+
+    {/* Portal Images */}
+    <a href="http://irimee.indianrailways.gov.in/view_section.jsp?lang=0&id=0,296" target="_blank">
+      <img src="/Footer_Portals/KP.jpg" alt="Knowledge Portal" className="h-10 hover:scale-105 transition" />
+    </a>
+
+    <a href="http://pensionersportal.gov.in/" target="_blank">
+      <img src="/Footer_Portals/PP.jpg" alt="Pensioners Portal" className="h-10 hover:scale-105 transition" />
+    </a>
+
+    <a href="http://www.nvsp.in/" target="_blank">
+      <img src="/Footer_Portals/NVSP.jpg" alt="NVSP" className="h-10 hover:scale-105 transition" />
+    </a>
+
+    <a href="https://www.india.gov.in/" target="_blank">
+      <img src="/Footer_Portals/IGN.jpg" alt="India Gov" className="h-10 hover:scale-105 transition" />
+    </a>
+
+    <a href="http://www.irts.org.in/" target="_blank">
+      <img src="/Footer_Portals/IRTSA.jpg" alt="IRTSA" className="h-10 hover:scale-105 transition" />
+    </a>
+
+    {/* Social Media Icons */}
+    <div className="flex items-center gap-3 ml-4">
+      <a href="https://www.facebook.com/rldaindia" className="text-muted-foreground hover:text-primary">
+        <Facebook className="w-5 h-5" />
+      </a>
+
+      <a href="https://x.com/rlda_india" className="text-muted-foreground hover:text-primary">
+        <Twitter className="w-5 h-5" />
+      </a>
+
+      <a href="https://www.instagram.com/rldaindia/" className="text-muted-foreground hover:text-accent">
+        <Instagram className="w-5 h-5" />
+      </a>
+
+      <a href="https://www.youtube.com/@RailLandDevelopmentAuthority" className="text-muted-foreground hover:text-accent">
+        <Youtube className="w-5 h-5" />
+      </a>
+
+      <a href="https://www.linkedin.com/company/rail-land-development-authority-rlda/" className="text-muted-foreground hover:text-primary">
+        <Linkedin className="w-5 h-5" />
+      </a>
+    </div>
+
+  </div>
+
+  <p className="text-center text-sm font-bold text-foreground mt-4">
+    {t('footer.gst')}
+  </p>
+</div>
 
       {/* Footer links */}
       <div className="bg-secondary border-t border-border px-6 py-4">

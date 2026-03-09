@@ -1,1 +1,35 @@
-@import "../Projects/Station.css";
+.opas-page {
+    width: 100%;
+    background: #f4f7fb;
+    min-height: 600px;
+}
+
+/* Blue banner */
+.opas-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* Content box */
+.opas-content {
+    background: white;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 30px;
+    border: 1px solid #e0e6ef;
+    border-radius: 4px;
+}
+
+/* Link style like RLDA */
+.opas-link {
+    font-size: 16px;
+    color: #1a4fb5;
+    text-decoration: underline;
+}
+
+.opas-link:hover {
+    color: #0a2d73;
+}

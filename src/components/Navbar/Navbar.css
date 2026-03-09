@@ -1,0 +1,40 @@
+.navbar-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    position: relative;
+    padding: 14px 18px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 220px;
+    display: none;
+    list-style: none;
+}
+
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+.dropdown-item {
+    position: relative;
+}
+
+.sub-dropdown {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: white;
+    min-width: 220px;
+    display: none;
+}
+
+.dropdown-item:hover .sub-dropdown {
+    display: block;
+}
