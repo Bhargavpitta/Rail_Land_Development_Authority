@@ -8,10 +8,39 @@ const Mfc = () => {
       </div>
 
       <div className="tender-content">
-        <p>
-          Active tenders for development of Multifunctional Complexes near
-          railway stations providing commercial and passenger facilities.
+
+        <p className="participation-link">
+          <a
+            href="https://www.tenderwizard.com/RLDA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Participation Link for e-Tender (RLDA e-Tenders)
+          </a>
         </p>
+
+        <table className="tender-table">
+          <thead>
+            <tr>
+              <th>Tender/RFP/Quotation/ Corrigendum Notice No.</th>
+              <th>Description</th>
+              <th>Last Date of Submission</th>
+              <th>Date of Opening</th>
+              <th>Detailed View</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {/* Currently no active tenders */}
+            <tr>
+              <td colSpan={5} className="no-data">
+                No Active Tenders Available
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+
       </div>
     </div>
   );

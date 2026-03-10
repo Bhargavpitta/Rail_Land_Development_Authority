@@ -1,1 +1,53 @@
-@import "./All_tenders.css";
+.tender-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+/* banner */
+.tender-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* content */
+.tender-content {
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* table */
+.tender-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* header */
+.tender-table th {
+    background: #e5e5e5;
+    padding: 10px;
+    border: 1px solid #999;
+    text-align: left;
+}
+
+/* rows */
+.tender-table td {
+    padding: 8px;
+    border: 1px solid #999;
+}
+
+/* link */
+.report-link {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+.report-link:hover {
+    color: #ff0000;
+}

@@ -4,32 +4,27 @@ const Faqs = () => {
   return (
     <div className="faqs-page">
       <div className="faqs-banner">
-        <h1>FAQs</h1>
+        FAQs
       </div>
 
-      <div className="faqs-content">
-        <p>
-          This section contains frequently asked questions related to
-          RLDA services, railway land development projects, tenders,
-          and general website information.
-        </p>
+      <div className="faqs-container">
 
-        <div className="faq-item">
-          <h3>What is RLDA?</h3>
-          <p>
-            RLDA (Rail Land Development Authority) is a statutory authority
-            under the Ministry of Railways responsible for development of
-            railway land for commercial use.
-          </p>
-        </div>
+        <h2>FAQ</h2>
 
-        <div className="faq-item">
-          <h3>How can I participate in RLDA tenders?</h3>
-          <p>
-            Tender information is available under the Tenders/e-Auctions
-            section of the RLDA website.
-          </p>
-        </div>
+        <ul className="faq-list">
+          <li>
+            <a href="/pdfs/CONTACT_FAQ/20180821_FAQ_Final.pdf" target="_blank">
+              FAQ
+            </a>
+          </li>
+
+          <li>
+            <a href="/pdfs/CONTACT_FAQ/RLDA e-Tendering Steps(1).pdf" target="_blank">
+              E-Tendering Steps
+            </a>
+          </li>
+        </ul>
+
       </div>
     </div>
   );

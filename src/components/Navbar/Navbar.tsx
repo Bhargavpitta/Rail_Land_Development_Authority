@@ -84,7 +84,7 @@ const navItems: NavItem[] = [
 
   {
     label: "TENDERS/E-AUCTIONS",
-    main: "/tenders/all",
+    main: "/tenders-eauctions",
     children: [
       { label: "All Tenders", href: "/tenders/all" },
       { label: "Station Tenders", href: "/tenders/station" },
@@ -98,7 +98,7 @@ const navItems: NavItem[] = [
 
   {
     label: "NEWS & ANNOUNCEMENTS",
-    main: "/news/newsletter",
+    main: "/news-gallery",
     children: [
       { label: "Newsletters", href: "/news/newsletter" },
       { label: "FAQ", href: "/news/faq" }
@@ -107,7 +107,7 @@ const navItems: NavItem[] = [
 
   {
     label: "CAREER",
-    main: "/career/reimbursement",
+    main: "/career",
     children: [
       { label: "Reimbursement", href: "/career/reimbursement" },
       { label: "Monthly Remuneration", href: "/career/monthly-remuneration" },

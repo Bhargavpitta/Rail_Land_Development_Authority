@@ -1,0 +1,125 @@
+sn,name,designation,phone,extension,email
+1,Sh. Manoj Garg,Vice Chairman,23233518,101,vc@rlda.railnet.gov.in
+2,Sh. Rabindra Nath Mishra,Member/Revenue,23232854/35,102,mf@rlda.railnet.gov.in
+3,Sh. Anand Singh,Member/Projects,23232854/35,103,mprojects@rlda.railnet.gov.in
+4,Sh. Mudit Chandra,Member/BD,23232854/35,104,memberbd@rlda.railnet.gov.in
+5,Vacant,Member/Planning,23232854/35,105,mplanning@rlda.railnet.gov.in
+6,Vacant -Being L/A By JGM/P-5,Secretary,23232854/35,212,secy@rlda.railnet.gov.in
+7,Sh. Anand Singh,ED/Projects,(-),208,edprojects@rlda.railnet.gov.in
+8,Sh. Sanjay Kumar Bhagat,ED/SDP,(-),111,edsdprojects@rlda.railnet.gov.in
+9,Sh. Ramanand Bhagat,ED/Finance,(-),209,edfinance@rlda.railnet.gov.in
+10,Sh. Apurva Agnihotri,GM/Security & IT,(-),112,gmitmv@rlda.railnet.gov.in
+11,Sh. Sanjay Kumar Yadav,GM/Tender,(-),110,gmtender@rlda.railnet.gov.in
+12,Sh. Om Prakash Yadav,GM/Finance,(-),118,jgmfin@rlda.railnet.gov.in
+13,Sh. Awadhesh Kumar,GM/Electrical,(-),244,gmelectrical@rlda.railnet.gov.in
+14,Sh. Atul Kumar Verma,GM/Design,(-),251,gmdesign@rlda.railnet.gov.in
+15,Ms. Shashi Kanchan,GM/System,(-),213,gmsystem@rlda.railnet.gov.in
+16,Sh. Abhay Kumar,GM/SP,(-),113,(-)
+17,Sh. Alok Kumar Mishra,CVO,47844552,(-),alokkumar.mishra@gov.in
+18,Sh. Dinesh Kumar Singh,CPM/ND-1,(-),249,cpmdelhi@rlda.railnet.gov.in
+19,Sh. Sushil Kumar Yadava,CPM/ND-2,(-),247,cpmnd2@rlda.railnet.gov.in
+20,Sh. Gaurav,CPM/ND-3,(-),117,cpm3dli@rlda.railnet.gov.in
+21,Sh. Mohit Kumar,CPM/ND-4,(-),114,(-)
+22,Vacant,JGM/Fin/NDLS,(-),115,jgmfndls@rlda.railnet.gov.in
+23,Sh. Prabhat Kamal Pawan,JGM/Project,(-),239,(-)
+24,Sh. J. C. Laamba,JGM/Project-3,(-),220,dgm_p3@rlda.railnet.gov.in
+25,Sh. Rahul Singhal,JGM/Project-5,(-),212,jgmproj5@rlda.railnet.gov.in
+26,Vacant -Being L/A By JGM/P-5,JGM/Architect,(-),212,jgmarch@rlda.railnet.gov.in
+27,Vacant,JGM/Electrical,(-),246,jgmelec@rlda.railnet.gov.in
+28,Sh. Rahul Verma,JGM/Project/Delhi,(-),128,jgmproject@rlda.railnet.gov.in
+29,Sh. O. P. Deshwal,JGM/Projects,(-),252,dgmpdli2@rlda.railnet.gov.in
+30,Ms. Sudha Venkata Varadhan,OSD (Company Affairs),(-),106,(-)
+31,Sh. R. S. Sajwan,DGM/HR,(-),211,dgmhrd@rlda.railnet.gov.in
+32,Vacant,DGM/Law,(-),(-),dgmlaw@rlda.railnet.gov.in
+33,Sh. Naresh Bisht,DGM/F&A,(-),129,dgmfin@rlda.railnet.gov.in
+34,Sh. Abhishek Mehta,DGM/BD,(-),217,(-)
+35,Sh. Ritesh Agrawal,DGM/Civil/Delhi,(-),237,dgmndls@rlda.railnet.gov.in
+36,Sh. Satish Kumar,DGM/Project/SD,(-),248,dgmpsd@rlda.railnet.gov.in
+37,Sh. P. P. Pathak,DGM/SD,(-),245,dgm.sd@rlda.railnet.gov.in
+38,Sh. Arman Singh Patel,DGM/Civil/DLI,(-),242,(-)
+39,Vacant- Being L/A by AM/MFC,Manager/MFC,(-),141,mgrp@rlda.railnet.gov.in
+40,Ms. Nidhi Tyagi,Manager/Project,(-),130,mgrprojects@rlda.railnet.gov.in
+41,Vacant,Manager/Projects/SD,(-),222,amp.sd@rlda.railnet.gov.in
+42,Sh. Devendra Kumar Chaubey,Manager/Electrical,(-),196,amelect@rlda.railnet.gov.in
+43,Sh. Deepak Narang,Manager/Bridge,(-),137,(-)
+44,Sh. Anirudha Bhatnagar,Manager/F&A,(-),148,(-)
+45,Sh. Himmat Singh,Manager/F&A,(-),146,(-)
+46,Md. Samiuddin,Manager/Drawing,(-),236,(-)
+47,Md. Maaz,Manager/Civil/Delhi,(-),282,(-)
+48,Sh. Rajeev Kumar,AM/IT,(-),152,amit@rlda.railnet.gov.in
+49,Sh. Jagdish Sharma,AM/Electrical,(-),269,(-)
+50,Sh. Souvik Sadhukhan,AM/Tender,(-),139,amtender@rlda.railnet.gov.in
+51,Vacant,AM/SD,(-),(-),asstsd@rlda.railnet.gov.in
+52,Vacant,AM/Law,(-),224,am.law@rlda.railnet.gov.in
+53,Mrs. Madhuchanda,AM/HR,(-),143,am.hrd@rlda.railnet.gov.in
+54,Sh. Sapan Kumar,AM/Electrical,(-),197,amelect1@rlda.railnet.gov.in
+55,Ms. Himanshi Yadav,AM/Architect,(-),225,(-)
+56,Sh. Kailash Dubey,AM/Civil,(-),270,amcivilndls@rlda.railnet.gov.in
+57,Sh. Virender Kumar Pandey,AM/Planning & Vigilance,(-),240,(-)
+58,Sh. Arup Saha,AM/Civil,(-),206,amcivildli@rlda.railnet.gov.in
+59,Sh. Shubham Sharma,AM/Civil,(-),277,(-)
+60,Sh. Arun Kumar,AM/Civil/Delhi,(-),275,(-)
+61,Sh. Rahul Kumar,AM/Civil/Delhi,(-),(-),(-)
+62,Sh. Amandeep,AM/Electrical/Delhi,(-),(-),(-)
+63,Sh. Pawan Pandey,AM/Electrical,(-),(-),(-)
+64,Sh. Himanshu Dawar,AM/Civil,(-),(-),(-)
+65,Sh. Anurag Sharma,AM/Civil/Delhi,(-),(-),(-)
+66,Sh. Rahul Kumar,AM/MFC,(-),141,(-)
+1,Vacant -Being L/A By CPM-2/Mumbai,Chief Project Manager,(-),(-),cpmadi@rlda.railnet.gov.in
+2,Sh. Sanjeev Kumar,Chief Project Manager,(-),(-),(-)
+3,Sh. Arpan Awasthi,JGM/Projects,(-),(-),dgmpadi@rlda.railnet.gov.in
+4,Sh. Rohini Prasad Chaturvedi,AM/Projects,(-),(-),(-)
+5,Sh. Anand Prakash,AM/Civil,(-),(-),(-)
+6,Sh. Vikas Gupta,AM/Electrical,(-),(-),(-)
+1,Sh. Pervesh Kumar,Chief Project Manager,(-),(-),(-)
+2,Sh. Bhaskar Gudipalli,JGM/Project,(-),(-),jgmpsbc@rlda.railnet.gov.in
+3,Sh. Vishnu N.A.,AM/Civil,(-),(-),(-)
+1,Vacant,JGM/Project-1,(-),(-),(-)
+2,Sh. Pankaj Kumar Karanwal,AM/Civil,(-),(-),amcivil.bpl@rlda.railnet.gov.in
+1,Vacant-Being L/A By GM/Project-3,Chief Project Manager,(-),117,cpmbbs@rlda.railnet.gov.in
+2,Sh. O. P. Deshwal,JGM/Project,(-),252,mgrproject@rlda.railnet.gov.in
+3,Lt. Col. Bisvajit Sahu,JGM/Civil,(-),(-),(-)
+4,Sh. Durgesh Nandan,AM/Civil,(-),(-),(-)
+1,Sh. Balbir Singh,Chief Project Manager,(-),(-),cpmcdg@rlda.railnet.gov.in
+2,Sh. Saurabh Singh,JGM/Projects,(-),(-),(-)
+3,Sh. Tarun Kumar Minocha,Manager/Civil,(-),(-),(-)
+4,Sh. Goldy,AM/Electrical,(-),(-),(-)
+1,Sh. Gyaniram Kumawat,Chief Project Manager,(-),(-),gmj@rlda.railnet.gov.in
+2,Sh. Nitish Mahaur,AM/Civil,(-),(-),(-)
+3,Sh. Mahendra Meena,AM/Civil,(-),(-),(-)
+1,Sh. Rajeev Kumar Gupta,Chief Project Manager,(-),(-),(-)
+1,Sh. Pavas Yadav,Chief Project Manager,(-),(-),cpmlko@rlda.railnet.gov.in
+2,Sh. Aman Gupta,JGM/Projects,(-),(-),dgmplko@rlda.railnet.gov.in
+3,Sh. Sunil Chandra Das,AM/Projects/SD,(-),(-),ampsdlko@rlda.railnet.gov.in
+4,Sh. Mithun Chakraborty,AM/Civil,(-),(-),(-)
+5,Sh. Vikas Kumar,AM/Electrical,(-),(-),(-)
+6,Sh. Ravi Kumar Ranjan,AM/Civil,(-),(-),(-)
+1,Sh. Shailesh Kumar Sinha,JGM/Projects,(-),(-),jgm.p1@rlda.railnet.gov.in
+2,Sh. Anjesh Kumar,AM/Project,(-),(-),(-)
+3,Sh. Praveen Kumar,SEO/Project,(-),(-),(-)
+1,Sh. D. K. Mishra,Chief Project Manager,(-),(-),cpmmumbai@rlda.railnet.gov.in
+2,Sh. Anirudh Kaushal,Chief Project Manager,(-),(-),(-)
+3,Sh. Prakash Chandel,JGM/Projects,(-),(-),dgmmumbai@rlda.railnet.gov.in
+4,Sh. G. Srinivasulu,JGM/Civil,(-),(-),(-)
+5,Vacant,DGM/Project,(-),(-),dgmpmumbai@rlda.railnet.gov.in
+6,Sh. Nitesh Pandey,DGM/Electrical,(-),(-),(-)
+7,Sh. Sanjay Kumar P,DGM/Civil,(-),(-),(-)
+8,Sh. Ashutosh Tripathi,AM/Civil,(-),(-),(-)
+9,Sh. Mangesh Jalindar Mandke,AM/Civil,(-),(-),(-)
+10,Sh. Zainul Abdin,AM/Civil,(-),(-),am3mumbai@rlda.railnet.gov.in
+11,Sh. Rahul Jaisingrao Jadhav,AM/Project,(-),(-),am2mumbai@rlda.railnet.gov.in
+12,Sh. Akhil Kumar Sinha,AM/Traffic,(-),(-),(-)
+13,Sh. Muddasir Hasan,AM/Civil,(-),(-),(-)
+1,Sh. Pawan R Patil,Chief Project Manager,(-),(-),cpmngp@rlda.railnet.gov.in
+2,Sh. G. Srinivasulu,JGM/Civil,(-),(-),(-)
+3,Sh. Yogesh R Pophali,JGM/Electrical,(-),(-),(-)
+4,Sh. Pratik Krishna,AM/Project,(-),(-),ampngp@rlda.railnet.gov.in
+5,Sh. Bholanath Pal,AM/Civil,(-),(-),(-)
+1,Sh. Alok Kumar Jha,Chief Project Manager,(-),(-),(-)
+1,Sh. Vishnu Vardhana Rao,Chief Project Manager,(-),(-),cpm.sc@rlda.railnet.gov.in
+2,Sh. Budda Bhargava Reddy,Manager/Civil/Hyderabad,(-),(-),(-)
+3,Sh. K. Srinivasa Rao,JGM/Project,(-),(-),(-)
+1,Sh. Tushar Mishra,CEO/SITCO,(-),(-),(-)
+2,Sh. Dharmendra Singh,JGM/Civil,(-),(-),(-)
+3,Sh. Praveen Kumar Agarwal,AM/Project,(-),(-),(-)
+4,Sh. Shivam Rajput,AM/Electrical,(-),(-),ampsurat@rlda.railnet.gov.in

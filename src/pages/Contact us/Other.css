@@ -1,14 +1,43 @@
-.contact-page {
-    background: #f5f7fa;
-    min-height: 70vh;
+.other-page {
+    background: #f4f7fb;
+    min-height: 100vh;
 }
 
-.contact-banner {
-    background: #1e3a8a;
+.other-banner {
+    background: #2f4f8f;
     color: white;
-    padding: 40px 60px;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
 }
 
-.contact-content {
-    padding: 40px 60px;
+.other-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.rail-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.rail-table th {
+    background: #e6e6e6;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.rail-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.rail-table tr:nth-child(even) {
+    background: #fafafa;
 }
