@@ -1,40 +1,42 @@
+import "./ContactUs.css";
+
 const ContactUs = () => {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-8">
+    <div className="contact-page">
 
-      {/* Page Title */}
-      <h1 className="text-2xl font-bold text-gray-800 mb-6 border-b pb-2">
+      {/* Banner */}
+      <div className="contact-banner">
         Contact Us
-      </h1>
+      </div>
 
-      {/* Contact Card */}
-      <div className="bg-white shadow-md rounded-lg p-6 border">
+      {/* Content */}
+      <div className="contact-container">
 
-        <h2 className="text-lg font-semibold text-gray-700 mb-4">
-          Postal Address
-        </h2>
+        <div className="contact-card">
 
-        <p className="font-semibold text-gray-800">
-          Rail Land Development Authority
-        </p>
+          <h3>Postal Address</h3>
 
-        <p className="mt-1 text-gray-700 leading-relaxed">
-          Unit No.702-B, 7th Floor, Konnectus Tower-2 <br />
-          DMRC Building, Ajmeri Gate <br />
-          Delhi – 110002
-        </p>
+          <p className="contact-org">
+            Rail Land Development Authority
+          </p>
 
-        <p className="mt-4 text-gray-800">
-          <span className="font-semibold">EPABX No. :</span>
-          <span className="ml-2">
-            011-23232854 / 23232835 / 23212834
-          </span>
-        </p>
+          <p>
+            Unit No.702-B, 7th Floor, Konnectus Tower-2 <br />
+            DMRC Building, Ajmeri Gate <br />
+            Delhi – 110002
+          </p>
 
-        <p className="mt-4 text-sm text-gray-600 italic">
-          Landmark: Above Airport Metro Express Line, Opposite New Delhi Railway
-          Station (Ajmeri Gate Side)
-        </p>
+          <p className="contact-phone">
+            <strong>EPABX No. :</strong>
+            <span> 011-23232854 / 23232835 / 23212834</span>
+          </p>
+
+          <p className="contact-landmark">
+            Landmark: Above Airport Metro Express Line, Opposite New Delhi
+            Railway Station (Ajmeri Gate Side)
+          </p>
+
+        </div>
 
       </div>
 

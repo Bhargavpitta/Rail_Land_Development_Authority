@@ -1,1 +1,75 @@
-@import "./All_tenders.css";
+/* Page background */
+.tender-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Top banner */
+.tender-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* Content container */
+.tender-content {
+    width: 75%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Participation link */
+.participation-link {
+    margin-bottom: 15px;
+}
+
+.participation-link a {
+    color: #1a0dab;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.participation-link a:hover {
+    color: red;
+}
+
+/* Table styling */
+.tender-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Table header */
+.tender-table th {
+    background: #e5e5e5;
+    border: 1px solid #999;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Table cells */
+.tender-table td {
+    border: 1px solid #999;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* No data row */
+.no-data {
+    text-align: center;
+    color: #777;
+    padding: 15px;
+}
+
+/* Hover effect */
+.tender-table tr:hover {
+    background: #f1f5ff;
+}

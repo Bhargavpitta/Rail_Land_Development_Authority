@@ -14,6 +14,9 @@ import NotFound from "./pages/NotFound";
 import AboutRLDA from "./pages/AboutRLDA";
 import RTI from "./pages/RTI";
 import Projects from "./pages/Projects";
+import TendersEAuctions from "./pages/TendersEAuctions";
+import NewsGallery from "./pages/NewsGallery";
+import CareerMain from "./pages/CareerMain";
 import ContactUs from "./pages/ContactUs";
 
 /* ABOUT */
@@ -48,6 +51,7 @@ import ColonyTender from "./pages/Tenders/Colony";
 import MfcTender from "./pages/Tenders/Mfc";
 import Summary from "./pages/Tenders/Summary";
 import Current from "./pages/Tenders/Current";
+
 
 /* NEWS */
 import Rlda from "./pages/News/Rlda";
@@ -135,9 +139,13 @@ const App = () => (
             <Route path="/tenders/summary" element={<Summary />} />
             <Route path="/tenders/current" element={<Current />} />
 
+            <Route path="/tenders-eauctions" element={<TendersEAuctions />} />
+
             {/* NEWS */}
             <Route path="/news/newsletter" element={<Rlda />} />
             <Route path="/news/faq" element={<Faq />} />
+
+            <Route path="/news-gallery" element={<NewsGallery />} />
 
            
             {/* CAREER */}
@@ -145,6 +153,7 @@ const App = () => (
 <Route path="/career/monthly-remuneration" element={<Monthly />} />
 <Route path="/career/terms" element={<Terms />} />
 <Route path="/career/archives" element={<Archives />} />
+<Route path="/career" element={<CareerMain />} />
             {/* CONTACT */}
             <Route path="/contact/telephone" element={<Telephone />} />
             <Route path="/contact/important-links" element={<Important />} />

@@ -1,1 +1,49 @@
-@import "./All_tenders.css";
+.tender-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+/* banner */
+.tender-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* content */
+.tender-content {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* description */
+.tender-content p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* grid layout */
+.tender-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* tender card */
+.tender-card {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* tender image */
+.tender-card img {
+    width: 100%;
+    height: auto;
+}
