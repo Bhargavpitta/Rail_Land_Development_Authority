@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import { ChevronDown, ChevronRight, Menu, X } from "lucide-react";
+import "./Navbar.css";
 
 interface SubChild {
   label: string;
@@ -33,7 +34,6 @@ const navItems: NavItem[] = [
       { label: "Annual Reports", href: "/about/annual-reports" }
     ]
   },
-
   {
     label: "RTI",
     main: "/rti",
@@ -42,7 +42,6 @@ const navItems: NavItem[] = [
       { label: "RTI Officials", href: "/rti/officials" }
     ]
   },
-
   {
     label: "PROJECTS",
     main: "/projects",
@@ -62,26 +61,9 @@ const navItems: NavItem[] = [
         subChildren: [
           { label: "Status of Commercial Sites", href: "/projects/commercial/status" }
         ]
-      },
-      {
-        label: "Multifunctional Complex",
-        href: "/projects/mfc",
-        subChildren: [
-          { label: "Status of Active MFC Sites", href: "/projects/mfc/status" }
-        ]
-      },
-      {
-        label: "Colony Redevelopment",
-        href: "/projects/colony",
-        subChildren: [
-          { label: "Status of Colony Redevelopment Sites", href: "/projects/colony/status" }
-        ]
-      },
-      { label: "Empanelled Consultant", href: "/projects/consultant" },
-      { label: "OPAAS", href: "/projects/opaas" }
+      }
     ]
   },
-
   {
     label: "TENDERS/E-AUCTIONS",
     main: "/tenders-eauctions",
@@ -95,7 +77,6 @@ const navItems: NavItem[] = [
       { label: "Current Bids", href: "/tenders/current" }
     ]
   },
-
   {
     label: "NEWS & ANNOUNCEMENTS",
     main: "/news-gallery",
@@ -104,7 +85,6 @@ const navItems: NavItem[] = [
       { label: "FAQ", href: "/news/faq" }
     ]
   },
-
   {
     label: "CAREER",
     main: "/career",
@@ -115,7 +95,6 @@ const navItems: NavItem[] = [
       { label: "Archives", href: "/career/archives" }
     ]
   },
-
   {
     label: "CONTACT US",
     main: "/contact",
@@ -134,100 +113,62 @@ const navItems: NavItem[] = [
 
 const Navbar = () => {
 
-  const [openDropdown, setOpenDropdown] = useState<number | null>(null);
-  const [openSubMenu, setOpenSubMenu] = useState<number | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
-
-  const navRef = useRef<HTMLDivElement>(null);
-  const hoverTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  const closeMenus = () => {
-    setOpenDropdown(null);
-    setOpenSubMenu(null);
-    setMobileOpen(false);
-  };
-
-  useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
-      if (navRef.current && !navRef.current.contains(e.target as Node)) {
-        closeMenus();
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-
-  }, []);
+  const [openDropdown, setOpenDropdown] = useState<number | null>(null);
+  const [openSub, setOpenSub] = useState<number | null>(null);
 
   return (
-    <nav ref={navRef} className="sticky top-0 z-50 w-full bg-nav shadow-lg">
+    <nav className="navbar">
 
-      <div className="flex items-center justify-between px-4">
+      <div className="navbar-container">
 
         <button
-          className="lg:hidden p-2 text-nav-foreground"
+          className="mobile-menu-btn"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
-          {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {mobileOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
 
-        <ul className="hidden lg:flex items-center w-full">
+        <ul className={`navbar-menu ${mobileOpen ? "active" : ""}`}>
 
           {navItems.map((item, idx) => (
             <li
               key={idx}
-              className="relative"
-              onMouseEnter={() => {
-                if (hoverTimeout.current) clearTimeout(hoverTimeout.current);
-                setOpenDropdown(idx);
-              }}
+              className="nav-item"
+              onMouseEnter={() => setOpenDropdown(idx)}
               onMouseLeave={() => {
-                hoverTimeout.current = setTimeout(() => {
-                  setOpenDropdown(null);
-                  setOpenSubMenu(null);
-                }, 200);
+                setOpenDropdown(null);
+                setOpenSub(null);
               }}
             >
 
-              <Link
-                to={item.main || "/"}
-                onClick={closeMenus}
-                className="flex items-center gap-1 px-4 py-3 text-sm font-semibold text-nav-foreground uppercase hover:bg-nav-hover"
-              >
+              <Link to={item.main || "/"} className="nav-link">
                 {item.label}
-                {item.children && <ChevronDown className="w-3 h-3" />}
+                {item.children && <ChevronDown size={14} />}
               </Link>
 
               {item.children && openDropdown === idx && (
-                <ul className="absolute left-0 top-full min-w-[260px] bg-white border shadow-lg">
+                <ul className="dropdown">
 
                   {item.children.map((child, cidx) => (
                     <li
                       key={cidx}
-                      className="relative"
-                      onMouseEnter={() => setOpenSubMenu(cidx)}
-                      onMouseLeave={() => setOpenSubMenu(null)}
+                      className="dropdown-item"
+                      onMouseEnter={() => setOpenSub(cidx)}
+                      onMouseLeave={() => setOpenSub(null)}
                     >
 
-                      <Link
-                        to={child.href}
-                        onClick={closeMenus}
-                        className="flex items-center justify-between px-4 py-2 text-sm hover:bg-blue-500 hover:text-white"
-                      >
+                      <Link to={child.href} className="dropdown-link">
                         {child.label}
-                        {child.subChildren && <ChevronRight className="w-3 h-3" />}
+                        {child.subChildren && <ChevronRight size={14} />}
                       </Link>
 
-                      {child.subChildren && openSubMenu === cidx && (
-                        <ul className="absolute left-full top-0 min-w-[260px] bg-white border shadow-lg">
+                      {child.subChildren && openSub === cidx && (
+                        <ul className="sub-dropdown">
 
                           {child.subChildren.map((sub, sidx) => (
                             <li key={sidx}>
-                              <Link
-                                to={sub.href}
-                                onClick={closeMenus}
-                                className="block px-4 py-2 text-sm hover:bg-blue-500 hover:text-white"
-                              >
+                              <Link to={sub.href} className="sub-link">
                                 {sub.label}
                               </Link>
                             </li>
