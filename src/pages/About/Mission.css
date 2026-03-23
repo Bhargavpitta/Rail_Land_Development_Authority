@@ -1,0 +1,35 @@
+.mission-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+.mission-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.mission-card {
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.mission-text {
+    font-size: 20px;
+    font-style: italic;
+    color: #555;
+    line-height: 1.6;
+}

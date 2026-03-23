@@ -1,0 +1,41 @@
+.rti-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+.rti-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.rti-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.rti-card {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    border-left: 6px solid #1e3a8a;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.rti-card h2 {
+    margin-bottom: 12px;
+    color: #1e3a8a;
+}
+
+.rti-card a {
+    color: #1a4ed8;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.rti-card a:hover {
+    color: #0f2c8c;
+}

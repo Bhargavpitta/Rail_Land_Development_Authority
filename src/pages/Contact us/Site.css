@@ -1,0 +1,57 @@
+.site-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+.site-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.site-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.site-description {
+    margin-bottom: 25px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.site-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.site-column h3 {
+    color: #222;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.site-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-column li {
+    margin-bottom: 6px;
+}
+
+.site-column a {
+    color: #1a4ed8;
+    text-decoration: underline;
+}
+
+.site-column a:hover {
+    color: #0f2c8c;
+}

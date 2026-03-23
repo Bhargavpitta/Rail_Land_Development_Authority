@@ -1,0 +1,36 @@
+.organisation-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+.organisation-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.organisation-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.organisation-card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+}
+
+.organisation-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 6px;
+}

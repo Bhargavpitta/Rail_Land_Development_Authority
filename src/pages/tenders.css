@@ -1,0 +1,81 @@
+.tender-page {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial;
+}
+
+.tender-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.tender-info {
+    margin-bottom: 10px;
+}
+
+.tender-participation {
+    display: block;
+    margin-bottom: 20px;
+    color: #0b51c5;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.tender-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tender-table th {
+    background: #efefef;
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.tender-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.notice {
+    white-space: pre-line;
+    line-height: 1.4;
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.view-link {
+    color: #0b51c5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+
+.others-title {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.others-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.others-links a {
+    color: #0b51c5;
+    text-decoration: none;
+}
+
+.others-links a:hover {
+    text-decoration: underline;
+}

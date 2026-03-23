@@ -1,0 +1,132 @@
+.navbar {
+    background: #1d3c78;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 14px 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    background: #2f5fb3;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 230px;
+    display: none;
+    list-style: none;
+    border: 1px solid #ddd;
+}
+
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+.dropdown-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-link:hover {
+    background: #2f5fb3;
+    color: white;
+}
+
+.sub-dropdown {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: white;
+    min-width: 230px;
+    display: none;
+}
+
+.dropdown-item:hover .sub-dropdown {
+    display: block;
+}
+
+.sub-link {
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.sub-link:hover {
+    background: #2f5fb3;
+    color: white;
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .navbar-menu {
+        flex-direction: column;
+        width: 100%;
+        background: #1d3c78;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        display: none;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    .nav-link {
+        padding: 16px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .dropdown {
+        position: static;
+        border: none;
+    }
+
+    .sub-dropdown {
+        position: static;
+    }
+}

@@ -1,0 +1,94 @@
+/* Page background */
+.contact-page {
+    background: #f5f7fa;
+    min-height: 100vh;
+}
+
+/* Banner */
+.contact-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 30px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* Content container */
+.contact-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Table wrapper for horizontal scroll */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+/* Main table */
+.telephone-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+/* Table header */
+.telephone-table th {
+    background: #f28f5b;
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Table cells */
+.telephone-table td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Zebra striping for readability */
+.telephone-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Hover effect */
+.telephone-table tbody tr:hover {
+    background: #eef3ff;
+}
+
+/* Email links */
+.telephone-table a {
+    color: #1a4ed8;
+    text-decoration: underline;
+}
+
+.telephone-table a:hover {
+    color: #0f2c8c;
+}
+
+/* Section headings (like VC & Members, Executive Directors etc) */
+.section-row td {
+    background: #d9f2e6;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-banner {
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    .contact-content {
+        padding: 20px;
+    }
+
+    .telephone-table {
+        font-size: 12px;
+    }
+}

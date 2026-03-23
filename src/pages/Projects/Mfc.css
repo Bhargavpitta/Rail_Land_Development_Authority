@@ -1,0 +1,50 @@
+.mfc-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+.mfc-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.mfc-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.mfc-subtitle {
+    color: #c00000;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.mfc-container p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.mfc-heading {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mfc-list {
+    padding-left: 20px;
+}
+
+.mfc-list li {
+    font-size: 14px;
+    margin-bottom: 6px;
+}

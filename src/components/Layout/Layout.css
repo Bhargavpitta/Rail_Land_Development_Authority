@@ -1,0 +1,18 @@
+.page-layout {
+    padding: 20px 40px;
+}
+
+/* Top action row */
+
+.page-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Page body */
+
+.page-content {
+    min-height: 400px;
+}

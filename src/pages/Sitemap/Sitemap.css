@@ -1,0 +1,48 @@
+.sitemap-page {
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+.sitemap-banner {
+    background: #2f4f8f;
+    color: white;
+    padding: 28px 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.sitemap-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.sitemap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.sitemap-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.sitemap-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sitemap-section li {
+    margin-bottom: 8px;
+}
+
+.sitemap-section a {
+    color: #1a4ed8;
+    text-decoration: none;
+}
+
+.sitemap-section a:hover {
+    text-decoration: underline;
+}
